@@ -42,7 +42,7 @@ This node will handle the vehicle's movement based on received commands.
 ### Common Issues and Solutions
 | Issue | Possible Solution |
 |--------|-----------------|
-| Docker command not found | Install Docker using `sudo apt install docker.io` and restart your terminal. |
+| Docker command not found | Install Docker using `sudo apt install docker` and restart your terminal. |
 | Cannot communicate with ESP32 | Check the USB connection and ensure the correct serial port is specified. |
 | ROS 2 node not starting | Verify that ROS 2 Humble is sourced (`source /opt/ros/humble/setup.bash`). |
 
